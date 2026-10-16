@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M Pavan | AI & ML Specialist & Python Full Stack Developer</title>
+  <meta name="description" content="Portfolio of M Pavan - B.Tech in Artificial Intelligence & Machine Learning and Python Full Stack Developer specializing in Django, scalable web applications, and AI systems.">
+  <meta name="keywords" content="M Pavan, AI & ML, Python Full Stack, Django, Web Developer, Mohan Babu University, Portfolio">
+  <meta name="author" content="M Pavan">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%238b5cf6'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='48' font-weight='bold' fill='white'>P</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================================================================
+       FLOATING GLASS NAVBAR
+       =================================================================== -->
+  <div class="navbar-wrapper">
+    <nav class="custom-nav">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-logo-icon">
+          <i class="bi bi-code-slash"></i>
+        </div>
+        <span>M.<span class="gradient-accent-text">Pavan</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Expertise</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="d-flex align-items-center gap-2">
+        <a href="#contact" class="nav-cta-btn">
+          <span>Let's Talk</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </a>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Mobile Menu Dropdown -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#services" class="nav-link">Expertise</a></li>
+      <li><a href="#about" class="nav-link">About & Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience & Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="d-grid gap-2">
+      <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary-glass justify-content-center">
+        <i class="bi bi-file-earmark-arrow-down"></i> Download Resume
+      </a>
+      <a href="#contact" class="btn btn-primary-glow justify-content-center">
+        <i class="bi bi-chat-dots-fill"></i> Get in Touch
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===================================================================
+         HERO SECTION
+         =================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          
+          <!-- Left Column: Intro & Call To Action -->
+          <div class="col-lg-7">
+            <div class="hero-content">
+              <!-- Available Badge -->
+              <div class="section-tag green">
+                <span class="pulse-dot"></span>
+                <span>Available For New Projects & Roles</span>
+              </div>
+
+              <div class="hero-role-title">
+                <i class="bi bi-terminal text-purple me-1"></i> AI & ML Specialist • Python Full Stack Developer
+              </div>
+
+              <h1 class="hero-main-title">
+                Hello, I'm <br>
+                <span class="gradient-text">M Pavan</span>
+              </h1>
+
+              <div class="hero-quote">
+                “Engineering intelligent systems with full-stack craftsmanship.”
+              </div>
+
+              <p class="hero-description">
+                B.Tech scholar in <strong>Artificial Intelligence & Machine Learning</strong> at Mohan Babu University and Full Stack Developer Intern at <strong>EduSkills Academy</strong>. Passionate about building robust web applications with Python & Django and deploying smart data models to solve real-world problems.
+              </p>
+
+              <!-- CTA Buttons -->
+              <div class="hero-cta-group">
+                <a href="#projects" class="btn-primary-glow">
+                  <span>Explore My Work</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+                
+                <a href="assets/resume.pdf" target="_blank" class="btn-secondary-glass" download="M_Pavan_Resume.pdf">
+                  <i class="bi bi-file-earmark-pdf-fill text-danger"></i>
+                  <span>Download Resume</span>
+                </a>
+
+                <a href="https://wa.me/916305325970" target="_blank" class="btn-secondary-glass" title="Chat on WhatsApp">
+                  <i class="bi bi-whatsapp text-success"></i>
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+
+              <!-- Social Links Row -->
+              <div class="hero-social-group">
+                <a href="https://github.com/pavan-4677" target="_blank" class="social-pill-btn" title="GitHub Profile">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/pavan211" target="_blank" class="social-pill-btn" title="LinkedIn Profile">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="mailto:pavanpavanpspk55@gmail.com" class="social-pill-btn" title="Send Email">
+                  <i class="bi bi-envelope-at-fill"></i>
+                </a>
+                <a href="tel:+916305325970" class="social-pill-btn" title="Call Pavan">
+                  <i class="bi bi-telephone-fill"></i>
+                </a>
+                <button class="social-pill-btn" onclick="copyToClipboard('pavanpavanpspk55@gmail.com', 'Email')" title="Copy Email">
+                  <i class="bi bi-clipboard"></i>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Column: Hero Portrait Card with Ambient Glow -->
+          <div class="col-lg-5">
+            <div class="hero-image-container">
+              <div class="hero-image-glow-bg"></div>
+
+              <!-- Floating Tag 1 -->
+              <div class="floating-chip top-left">
+                <div class="chip-icon"><i class="bi bi-cpu-fill"></i></div>
+                <span>AI & ML Engineer</span>
+              </div>
+
+              <!-- Main Photo Card -->
+              <div class="hero-image-card">
+                <img id="heroProfileImg" src="assets/passport_photo.jpeg" alt="M Pavan Portrait" loading="eager">
+              </div>
+
+              <!-- Floating Tag 2 -->
+              <div class="floating-chip bottom-right">
+                <div class="chip-icon"><i class="bi bi-layers-fill"></i></div>
+                <span>Python & Django Stack</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================
+             BENTO STATS COUNTER STRIP
+             =================================================================== -->
+        <div class="stats-strip-container" id="stats-strip">
+          <div class="row align-items-center g-3">
+            <div class="col-6 col-md-3 stat-item">
+              <div class="stat-number" data-target="8.52" data-float="true">0.00</div>
+              <div class="stat-label">Academic CGPA (B.Tech)</div>
+            </div>
+            <div class="col-6 col-md-3 stat-item">
+              <div class="stat-number" data-target="1" data-suffix="+">0</div>
+              <div class="stat-label">Years Hands-On Exp</div>
+            </div>
+            <div class="col-6 col-md-3 stat-item">
+              <div class="stat-number" data-target="5" data-suffix="+">0</div>
+              <div class="stat-label">Core Tech Stacks</div>
+            </div>
+            <div class="col-6 col-md-3 stat-item">
+              <div class="stat-number" data-target="100" data-suffix="%">0</div>
+              <div class="stat-label">Commitment & Quality</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SERVICES / WHAT I DO SECTION
+         =================================================================== -->
+    <section id="services">
+      <div class="container">
+        
+        <div class="row mb-5">
+          <div class="col-lg-8">
+            <div class="section-tag">
+              <i class="bi bi-lightning-charge-fill"></i> Core Competencies
+            </div>
+            <h2 class="section-title">Design that moves from idea to launch.</h2>
+            <p class="section-subtitle">
+              Delivering complete software solutions combining user-friendly frontends, scalable backend services, and machine learning pipelines.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Service 1: Full Stack Web Apps -->
+          <div class="col-md-6 col-lg-3">
+            <div class="bento-card service-card">
+              <div>
+                <div class="service-card-header">
+                  <div class="service-icon-box">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <span class="service-number">01</span>
+                </div>
+                <h4>Full Stack Web Dev</h4>
+                <p>Architecting robust, end-to-end web applications with clean frontend interfaces and scalable server-side business logic.</p>
+              </div>
+              <div class="service-tags">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Django</span>
+                <span class="tech-chip">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: AI & ML Solutions -->
+          <div class="col-md-6 col-lg-3">
+            <div class="bento-card service-card">
+              <div>
+                <div class="service-card-header">
+                  <div class="service-icon-box">
+                    <i class="bi bi-robot"></i>
+                  </div>
+                  <span class="service-number">02</span>
+                </div>
+                <h4>AI & Machine Learning</h4>
+                <p>Applying predictive modeling, classification, and data analysis to solve complex analytical problems.</p>
+              </div>
+              <div class="service-tags">
+                <span class="tech-chip">Supervised ML</span>
+                <span class="tech-chip">Algorithms</span>
+                <span class="tech-chip">Data Science</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Database & SQL Architecture -->
+          <div class="col-md-6 col-lg-3">
+            <div class="bento-card service-card">
+              <div>
+                <div class="service-card-header">
+                  <div class="service-icon-box">
+                    <i class="bi bi-database-fill-gear"></i>
+                  </div>
+                  <span class="service-number">03</span>
+                </div>
+                <h4>Database & SQL Systems</h4>
+                <p>Designing normalized relational database schemas, complex SQL queries, and efficient data storage structures.</p>
+              </div>
+              <div class="service-tags">
+                <span class="tech-chip">MySQL</span>
+                <span class="tech-chip">DBMS</span>
+                <span class="tech-chip">Query Opt</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 4: Frontend & UI Engineering -->
+          <div class="col-md-6 col-lg-3">
+            <div class="bento-card service-card">
+              <div>
+                <div class="service-card-header">
+                  <div class="service-icon-box">
+                    <i class="bi bi-palette-fill"></i>
+                  </div>
+                  <span class="service-number">04</span>
+                </div>
+                <h4>Modern Frontend & UI</h4>
+                <p>Crafting sleek, mobile-first responsive user interfaces with rich animations, clean code, and intuitive UX.</p>
+              </div>
+              <div class="service-tags">
+                <span class="tech-chip">HTML5 / CSS3</span>
+                <span class="tech-chip">Bootstrap</span>
+                <span class="tech-chip">jQuery</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         ABOUT ME & SKILLS SECTION ("Developer Mindset")
+         =================================================================== -->
+    <section id="about">
+      <div class="container">
+        
+        <div class="row g-5 align-items-center">
+          
+          <!-- Left Column: Secondary Profile Card -->
+          <div class="col-lg-5">
+            <div class="about-avatar-card">
+              <img src="assets/passport_photo.jpeg" alt="M Pavan Profile Picture">
+              <div class="about-credentials-box">
+                <div class="credential-row">
+                  <i class="bi bi-mortarboard-fill"></i>
+                  <span>B.Tech in Artificial Intelligence & Machine Learning</span>
+                </div>
+                <div class="credential-row">
+                  <i class="bi bi-building-check"></i>
+                  <span>Mohan Babu University, Tirupati</span>
+                </div>
+                <div class="credential-row">
+                  <i class="bi bi-briefcase-fill"></i>
+                  <span>Python Full Stack Intern @ EduSkills Academy</span>
+                </div>
+                <div class="credential-row">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <span>Andhra Pradesh, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Story & Skill Progress Bars -->
+          <div class="col-lg-7">
+            <div class="section-tag">
+              <i class="bi bi-person-circle"></i> About Me
+            </div>
+            <h2 class="section-title">Design thinking with a developer's mindset.</h2>
+            <p class="about-description mb-4">
+              I am <strong>M Pavan</strong>, an AI & Machine Learning engineer and Python Full Stack Developer focused on creating clean, modern, and user-centric digital applications. I bridge user-centered frontend interfaces with dependable Python/Django backends and intelligent algorithms to build software that is both visually engaging and technically robust.
+            </p>
+
+            <!-- Skill Progress Bars -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-code-square"></i> Python & Django Backend</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-window-fullscreen"></i> Web Technologies (HTML, CSS, JS, Bootstrap)</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-cpu"></i> Artificial Intelligence & Machine Learning</span>
+                <span class="skill-percentage">88%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 88%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-database"></i> MySQL & Relational Database Architecture</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-filetype-java"></i> Java Programming & OOP Concepts</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill Badges -->
+            <div class="skill-badge-group">
+              <span class="skill-badge"><i class="bi bi-check2-circle text-purple"></i> Git & GitHub</span>
+              <span class="skill-badge"><i class="bi bi-check2-circle text-purple"></i> VS Code</span>
+              <span class="skill-badge"><i class="bi bi-check2-circle text-purple"></i> jQuery</span>
+              <span class="skill-badge"><i class="bi bi-check2-circle text-purple"></i> Data Structures</span>
+              <span class="skill-badge"><i class="bi bi-check2-circle text-purple"></i> RESTful Workflow</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         RECENT PROJECTS SHOWCASE
+         =================================================================== -->
+    <section id="projects">
+      <div class="container">
+        
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+          <div>
+            <div class="section-tag">
+              <i class="bi bi-folder-fill"></i> Portfolio
+            </div>
+            <h2 class="section-title">Recent projects.</h2>
+            <p class="section-subtitle">
+              A curated showcase of real-world web apps, backend integrations, and data engineering projects.
+            </p>
+          </div>
+
+          <div class="mt-3 mt-md-0">
+            <span class="section-tag mb-0">
+              <i class="bi bi-star-fill text-warning me-1"></i> Featured Full Stack Project
+            </span>
+          </div>
+        </div>
+
+        <!-- Featured Project: Online Community Marketplace (From Resume) -->
+        <div class="row justify-content-center">
+          <div class="col-lg-11 col-xl-10">
+            <div class="project-card featured-project-showcase">
+              <!-- Full Widescreen Project Banner (100% Full-Fill, Zero Cropping of Text) -->
+              <div class="project-banner-container">
+                <img src="assets/marketplace_project.png" alt="Online Community Marketplace Application Preview" class="project-banner-img" loading="lazy">
+                <div class="project-overlay-badge">
+                  <i class="bi bi-star-fill text-warning me-1"></i> Python & Django Web App
+                </div>
+              </div>
+
+              <!-- Project Body Details Below Banner -->
+              <div class="project-body p-4 p-md-5">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                  <span class="timeline-badge mb-0">FLAGSHIP PROJECT</span>
+                  <span class="text-light-dim small"><i class="bi bi-shield-check text-success me-1"></i> Full Stack Architecture</span>
+                </div>
+
+                <h3 class="project-title fs-2 mb-3">Online Community Marketplace Web Application</h3>
+                <p class="project-desc mb-4">
+                  A full-scale online marketplace application empowering users to create accounts, post items or products for sale, explore and filter listings by category, and manage their personal posts. Engineered with robust Django backend logic, secure authentication, and a structured MySQL database for reliable data management.
+                </p>
+                
+                <!-- 3 Key Highlights Bento Cards -->
+                <div class="row g-3 mb-4">
+                  <div class="col-md-4">
+                    <div class="p-3 rounded-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
+                      <div class="text-white fw-bold mb-1"><i class="bi bi-person-check-fill text-purple me-1"></i> User Accounts</div>
+                      <div class="text-light-dim small">Secure registration, profile management, and post ownership authorization.</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="p-3 rounded-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
+                      <div class="text-white fw-bold mb-1"><i class="bi bi-search text-purple me-1"></i> Dynamic Listings</div>
+                      <div class="text-light-dim small">Category-based filtering, item browsing, and responsive search indexing.</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="p-3 rounded-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
+                      <div class="text-white fw-bold mb-1"><i class="bi bi-database-fill-check text-purple me-1"></i> Relational MySQL</div>
+                      <div class="text-light-dim small">Normalized MySQL schema for products, categories, transactions, and users.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tech Stack & Action Buttons -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 pt-3 border-top border-secondary border-opacity-10">
+                  <div class="project-tech-stack mb-0">
+                    <span class="tech-chip">Python</span>
+                    <span class="tech-chip">Django</span>
+                    <span class="tech-chip">MySQL</span>
+                    <span class="tech-chip">HTML5</span>
+                    <span class="tech-chip">CSS3</span>
+                    <span class="tech-chip">JavaScript</span>
+                    <span class="tech-chip">Bootstrap</span>
+                  </div>
+
+                  <div class="project-actions p-0 border-0">
+                    <a href="https://github.com/pavan-4677" target="_blank" class="btn-primary-glow text-decoration-none">
+                      <i class="bi bi-github"></i> View on GitHub
+                    </a>
+                    <button class="btn-secondary-glass" onclick="copyToClipboard('https://github.com/pavan-4677', 'GitHub Repository')">
+                      <i class="bi bi-share-fill"></i> Share
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         EXPERIENCE & EDUCATION TIMELINE
+         =================================================================== -->
+    <section id="experience">
+      <div class="container">
+        
+        <div class="row g-5">
+          
+          <!-- Experience Column -->
+          <div class="col-lg-6">
+            <div class="section-tag">
+              <i class="bi bi-briefcase-fill"></i> Career
+            </div>
+            <h2 class="section-title mb-4">Work Experience.</h2>
+
+            <div class="bento-card p-4">
+              <div class="timeline-card">
+                <span class="timeline-badge">CURRENT INTERNSHIP • 2026</span>
+                <h3 class="timeline-title">Python Full Stack Developer Intern</h3>
+                <div class="timeline-company">
+                  <i class="bi bi-building me-1"></i> EduSkills Academy
+                </div>
+                <ul class="timeline-details ps-3">
+                  <li>Developing practical, scalable web applications utilizing <strong>HTML, CSS, JavaScript, jQuery, Python, Django, and SQL</strong>.</li>
+                  <li>Gaining rigorous hands-on experience in responsive frontend UI, backend MVC architecture, REST services, and database integration.</li>
+                  <li>Active collaborator in end-to-end software development workflows from wireframes to database migrations and testing.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Column -->
+          <div class="col-lg-6">
+            <div class="section-tag">
+              <i class="bi bi-mortarboard-fill"></i> Academics
+            </div>
+            <h2 class="section-title mb-4">Education Details.</h2>
+
+            <div class="bento-card p-4">
+              <!-- B.Tech -->
+              <div class="timeline-card">
+                <span class="timeline-badge">2023 – EXPECTED 2027</span>
+                <h3 class="timeline-title">B.Tech in Artificial Intelligence & Machine Learning</h3>
+                <div class="timeline-company">
+                  <i class="bi bi-award-fill text-warning me-1"></i> <strong>Mohan Babu University, Tirupati</strong>
+                </div>
+                <div class="timeline-details">
+                  <p class="mb-1 text-white"><strong>Academic Score:</strong> <span class="badge bg-purple px-2 py-1">8.52 / 10 CGPA</span></p>
+                  <p class="mb-0 text-muted">Core Studies: Data Structures, OOP (Java & Python), DBMS, Web Technologies, Artificial Intelligence, Machine Learning, and Software Development.</p>
+                </div>
+              </div>
+
+              <!-- 12th Intermediate -->
+              <div class="timeline-card">
+                <span class="timeline-badge">2021 – 2023</span>
+                <h3 class="timeline-title">Intermediate (12th Grade)</h3>
+                <div class="timeline-company">
+                  <i class="bi bi-bank me-1"></i> Narayana Junior College
+                </div>
+                <div class="timeline-details">
+                  <p class="mb-0 text-white">Board of Intermediate Education, Andhra Pradesh — <strong>86.8% (868 / 1000)</strong></p>
+                </div>
+              </div>
+
+              <!-- 10th SSC -->
+              <div class="timeline-card">
+                <span class="timeline-badge">COMPLETED 2021</span>
+                <h3 class="timeline-title">Secondary School Certificate (10th Grade)</h3>
+                <div class="timeline-company">
+                  <i class="bi bi-award me-1"></i> Government High School, Santhipuram
+                </div>
+                <div class="timeline-details">
+                  <p class="mb-0 text-white">Board of Secondary Education, Andhra Pradesh — <strong>94.5% (567 / 600)</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CONTACT CTA SECTION ("Have an idea? Let's build it.")
+         =================================================================== -->
+    <section id="contact">
+      <div class="container">
+        
+        <div class="contact-banner-card">
+          <div class="row g-5 align-items-center">
+            
+            <!-- Left Contact Info -->
+            <div class="col-lg-6">
+              <div class="section-tag green">
+                <span class="pulse-dot"></span> Get In Touch
+              </div>
+              <h2 class="section-title">Have an idea? <br>Let's build it together.</h2>
+              <p class="text-muted mb-4">
+                I'm actively seeking opportunities for internships, full-time developer roles, and impactful software collaborations. Feel free to reach out directly!
+              </p>
+
+              <!-- Email Pill -->
+              <div class="contact-info-pill" onclick="copyToClipboard('pavanpavanpspk55@gmail.com', 'Email')" style="cursor: pointer;" title="Click to copy email">
+                <div class="contact-icon-box">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div>
+                  <div class="contact-text-label">Email (Click to Copy)</div>
+                  <div class="contact-text-val">pavanpavanpspk55@gmail.com</div>
+                </div>
+              </div>
+
+              <!-- Phone Pill -->
+              <div class="contact-info-pill" onclick="copyToClipboard('+916305325970', 'Phone Number')" style="cursor: pointer;" title="Click to copy phone">
+                <div class="contact-icon-box">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div>
+                  <div class="contact-text-label">Phone / WhatsApp (Click to Copy)</div>
+                  <div class="contact-text-val">+91 6305325970</div>
+                </div>
+              </div>
+
+              <!-- LinkedIn Pill -->
+              <a href="https://linkedin.com/in/pavan211" target="_blank" class="contact-info-pill text-decoration-none">
+                <div class="contact-icon-box">
+                  <i class="bi bi-linkedin"></i>
+                </div>
+                <div>
+                  <div class="contact-text-label">Professional Profile</div>
+                  <div class="contact-text-val">linkedin.com/in/pavan211</div>
+                </div>
+              </a>
+
+              <!-- GitHub Pill -->
+              <a href="https://github.com/pavan-4677" target="_blank" class="contact-info-pill text-decoration-none">
+                <div class="contact-icon-box">
+                  <i class="bi bi-github"></i>
+                </div>
+                <div>
+                  <div class="contact-text-label">Code Repositories</div>
+                  <div class="contact-text-val">github.com/pavan-4677</div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Right Interactive Contact Form -->
+            <div class="col-lg-6">
+              <div class="bento-card p-4 p-md-5">
+                <h4 class="mb-3">Send a Message</h4>
+                <form id="contactForm">
+                  <div class="mb-3">
+                    <label class="form-label text-muted small" for="formName">Your Name</label>
+                    <input type="text" class="custom-input" id="formName" placeholder="e.g. Alex Johnson" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label text-muted small" for="formEmail">Your Email</label>
+                    <input type="email" class="custom-input" id="formEmail" placeholder="e.g. alex@company.com" required>
+                  </div>
+                  <div class="mb-4">
+                    <label class="form-label text-muted small" for="formMessage">Message / Project Details</label>
+                    <textarea class="custom-input" id="formMessage" rows="4" placeholder="Hi Pavan, I'd like to discuss an opportunity regarding..." required></textarea>
+                  </div>
+                  <button type="submit" class="btn-primary-glow w-100 justify-content-center">
+                    <span>Send Message</span>
+                    <i class="bi bi-send-fill"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer>
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div class="d-flex align-items-center gap-2">
+          <div class="brand-logo-icon" style="width: 26px; height: 26px; font-size: 0.75rem;">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <span class="fw-bold text-white">M Pavan</span>
+          <span class="text-muted ms-2">© 2026. All rights reserved.</span>
+        </div>
+
+        <div>
+          <span class="text-muted small">Crafted with modern HTML5, CSS3 & JavaScript.</span>
+        </div>
+
+        <div class="d-flex gap-3">
+          <a href="https://github.com/pavan-4677" target="_blank" class="footer-social-link" title="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://linkedin.com/in/pavan211" target="_blank" class="footer-social-link" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:pavanpavanpspk55@gmail.com" class="footer-social-link" title="Email"><i class="bi bi-envelope-at"></i></a>
+          <a href="assets/resume.pdf" target="_blank" class="footer-social-link" title="Resume"><i class="bi bi-file-earmark-pdf"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Interaction Script -->
+  <script src="script.js"></script>
+</body>
+</html>
